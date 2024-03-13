@@ -1,4 +1,3 @@
-// import { ethers } from "@nomiclabs/hardhat-ethers";
 import { ethers } from "hardhat";
 
 async function main() {
