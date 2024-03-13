@@ -21,24 +21,23 @@ function App(): JSX.Element {
     <div className="App">
       <div className="App-header">
         <div className="description">
-          <h1>Greeter.sol</h1>
-          <h3>Full stack dapp using ReactJS and Hardhat</h3>
+          <h1>MessageSaver.sol</h1>
         </div>
         <div className="custom-buttons">
           <button onClick={handleReading} style={{ backgroundColor: "green" }}>
-            Fetch Greeting
+            Fetch Message
           </button>
           <button onClick={handleSaving} style={{ backgroundColor: "red" }}>
-            Set Greeting
+            Set Message
           </button>
         </div>
         <input
           onChange={(e) => setMessage(e.target.value)}
           value={message}
-          placeholder="Set Greeting Message"
+          placeholder="Set Message"
         />
 
-        <h2 className="greeting">Greeting: {currentMsg}</h2>
+        <h2 className="message">Meassage: {currentMsg}</h2>
       </div>
     </div>
   );
