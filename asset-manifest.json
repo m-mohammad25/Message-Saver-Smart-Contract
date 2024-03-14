@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Message-Saver-Smart-Contract/static/css/main.1ffd4f28.css",
+    "main.js": "/Message-Saver-Smart-Contract/static/js/main.122b522b.js",
+    "index.html": "/Message-Saver-Smart-Contract/index.html",
+    "main.1ffd4f28.css.map": "/Message-Saver-Smart-Contract/static/css/main.1ffd4f28.css.map",
+    "main.122b522b.js.map": "/Message-Saver-Smart-Contract/static/js/main.122b522b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ffd4f28.css",
+    "static/js/main.122b522b.js"
+  ]
+}
