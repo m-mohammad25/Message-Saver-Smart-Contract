@@ -3,7 +3,7 @@ import { ethers } from "ethers";
 import MessageSaver from "./artifacts/contracts/MessageSaver.sol/MessageSaver.json";
 
 // contract address on localhost node 0x5fbdb2315678afecb367f032d93f642f64180aa3
-const messageSaverAddress = "0xb51a6708436F5131b0Bfc12d8717b8FDea2CdDbe"; // contract address on sepolia network
+const messageSaverAddress = "0x5fbdb2315678afecb367f032d93f642f64180aa3"; //"0xb51a6708436F5131b0Bfc12d8717b8FDea2CdDbe"; // contract address on sepolia network
 
 declare global {
   interface Window {
