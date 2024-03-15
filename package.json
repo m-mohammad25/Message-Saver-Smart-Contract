@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/m-mohammad25/message-saver-smart-contract.git"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
