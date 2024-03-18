@@ -16,7 +16,7 @@ or you can run the app locally using Hardhat tool.
 1. on the project directory, run `npx hardhat node`
    Running the above command, you will get the RPC endpoint as well as a list of locally generated accounts. We will need the endpoint as well as the private keys for configuring Metamask.
 
-![after_running_hardhat_node](./readme_imgs/after_running_hardhat_node.png.png)
+![after_running_hardhat_node](./readme_imgs/after_running_hardhat_node.png)
 
 2. now, we need to add a local network to Metamask. In a browser with Metamask installed, select the network dropdown (this will likely be the dropdown with “Ethereum Mainnet” listed). Do note that you will need to have enabled “Show test networks” in order to view the full list as per the below screenshot.
 
