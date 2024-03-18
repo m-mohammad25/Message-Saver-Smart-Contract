@@ -1,17 +1,36 @@
-# Message Saver smart contract
+# Message Saver Smart Contract
 
-This project is a simple example on how to code a smart contract and interact with it with react.js
+This project is a simple example on how to code a smart contract and interact with it with React.js
 
-The contract is deployed on Alchemy using Sepolia network
+The project does a simple task, which is saving a message on a blockchain network and fetching it.
+
+The contract is deployed on [Alchemy](https://www.alchemy.com/) using Sepolia network
 
 - Live Version: https://m-mohammad25.github.io/Message-Saver-Smart-Contract/
+- NPM Package: https://www.npmjs.com/package/message-saver
 
-<b>Note:</b> you must have an Alchemy account and a MetaMask wallet containing Sepolia Ether (test ether) to use the app online
-or you can run the app locally using Hardhat tool.
+<b>Note:</b> you must have an [Alchemy](https://www.alchemy.com/) account and a [MetaMask](https://metamask.io/) wallet containing Sepolia Ether (test ether) to use the app online or you can run the app locally using Hardhat tool (see the details below).
 
-## How To Run The App
+## Configuring MetaMask wallet to try the live version
 
-### On Localhost
+1. After making an account on [Alchemy](https://www.alchemy.com/) and a digital wallet on [MetaMask](https://metamask.io/), select the network dropdown (this will likely be the dropdown with “Ethereum Mainnet” listed). Do note that you will need to have enabled “Show test networks” in order to view the full list as per the below screenshot.
+
+![after_running_hardhat_node](./readme_imgs/after_running_hardhat_node.png)
+
+2. from the list, select Sepolia network.
+
+![selecting_sepolia_network](./readme_imgs/selecting_sepolia_network.png)
+
+now, you should be able to see a MetaMask account which operates on Sepolia network
+
+!new_sepolia_account[](./readme_imgs/new_sepolia_account.png)
+
+as you can see, there is no ether in the account!
+You can optain some fake ether from [here](https://www.alchemy.com/faucets/ethereum-sepolia) by login into your [Alchemy](https://www.alchemy.com/) account and providing the private key of the MetaMask account which has been already created. After that, you will be ready to use the [live verison](https://m-mohammad25.github.io/Message-Saver-Smart-Contract/) of the project.
+
+![showing_private_key_sepolia](./readme_imgs/showing_private_key_sepolia.png)
+
+## How To Run The App On Localhost
 
 1. on the project directory, run `npx hardhat node`
    Running the above command, you will get the RPC endpoint as well as a list of locally generated accounts. We will need the endpoint as well as the private keys for configuring Metamask.
@@ -71,3 +90,9 @@ Make sure that the address which our contract has been deployed to matches the v
 5. finally, run `npm start` command and a new tab will be opened in your browser so you can use the app.
 
 ![local_app_in_browser](./readme_imgs/local_app_in_browser.png)
+
+## How To Run The Test Suite On Localhost
+
+After running `npx hardhat node` commmand as above, you can run the test suite in `./test/MessageSaver.ts ` file by running `npx hardhat test` ON A SEPERATE CONSOlE
+
+![after_running_test_command](./readme_imgs/after_running_test_command.png)
