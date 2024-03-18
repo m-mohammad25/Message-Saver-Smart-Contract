@@ -93,6 +93,6 @@ Make sure that the address which our contract has been deployed to matches the v
 
 ## How To Run The Test Suite On Localhost
 
-After running `npx hardhat node` commmand as above, you can run the test suite in `./test/MessageSaver.ts ` file by running `npx hardhat test` ON A SEPERATE CONSOlE
+After running `npx hardhat node` command as above, you can run the test suite in `./test/MessageSaver.ts ` file by running `npx hardhat test` ON A SEPERATE CONSOLE
 
 ![after_running_test_command](./readme_imgs/after_running_test_command.png)
