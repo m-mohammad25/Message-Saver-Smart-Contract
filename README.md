@@ -13,17 +13,17 @@ or you can run the app locally using Hardhat tool.
 
 ### On Localhost
 
-1. on the project directory, run `npx hardhat node `
+1. on the project directory, run `npx hardhat node`
    Running the above command, you will get the RPC endpoint as well as a list of locally generated accounts. We will need the endpoint as well as the private keys for configuring Metamask.
 
-![after_running_hardhat_node](./readme_imgs/after_running_hardat_node.png)
+![after_running_hardhat_node](./readme_imgs/after_running_hardhat_node.png.png)
 
 2. now, we need to add a local network to Metamask. In a browser with Metamask installed, select the network dropdown (this will likely be the dropdown with “Ethereum Mainnet” listed). Do note that you will need to have enabled “Show test networks” in order to view the full list as per the below screenshot.
 
 ![metamask_network_add](./readme_imgs/metmask_network_add.png)
 
 Select "Add Network" and a new tab will be opened in your browser listing types of networks to choose from.
-from the buttom of the page, click "add a new network manually
+from the buttom of the page, click "add a new network manually"
 
 ![browser_tab_after_add_network_btn_clicked](./readme_imgs/browser_tab_after_add_network_btn_clicked.png)
 
@@ -40,7 +40,7 @@ In order to connect to our local network, we will be using the following:
 Then click "save"
 
 3. now, we need to import test accounts.
-   Upon starting up the local network, Hardhat has also funded a list of accounts with the native test ETH. In order to add these accounts to Metamask, we will need to add the private keys which were returned when we ran the `npx hardhat node ` command.
+   Upon starting up the local network, Hardhat has also funded a list of accounts with the native test ETH. In order to add these accounts to Metamask, we will need to add the private keys which were returned when we ran the `npx hardhat node` command.
 
 With the private keys in hand, we can then select the accounts tab on Metamask (this is the colourful circle on top) which will display various options for connecting an account.
 
